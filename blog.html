@@ -1,0 +1,141 @@
+<html lang="en">
+<head>
+  <title>My Blog Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  * {
+      box-sizing: border-box;
+  }
+
+  .zoom {
+       padding: 20px;
+      transition: transform .2s;
+      width: 200px;
+      height: 200px;
+      margin: 0 auto;
+      filter: grayscale(100%);
+    }
+  .zoom:hover {
+       -ms-transform: scale(1.5);
+      transform: scale(1.5);
+      filter: grayscale(0%);
+  }
+  </style>
+ </head>
+ <body>
+   <div class="container-fluid" >
+     <div class="jumbotron" style="background-color:powderblue">
+    <h1>Blog Title</h1>
+    <p>The Official Blogspot</p>
+    <button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Actual Date and Time.</button><br>
+<p id="demo" style="font-size:15px"></p>
+  </div>
+  <div class="row">
+  <div class="col-sm-8">
+        <h4><small>RECENT POSTS</small></h4>
+        <hr>
+        <h2>Blog Name</h2>
+        <h5><span class="glyphicon glyphicon-time"></span> Post by Shoaib Ahmed, Jan 19, 2018.&nbsp&nbsp&nbsp<span><img src="profile.jpg" class="img-circle" height="65" width="65" alt="Avatar"> </span></h5>
+        <h5><span class="label label-success">Food</span> <span class="label label-primary">Ipsum</span> <span class="label label-danger">Hunger</span></h5><br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. But I must explain to you how all this mistaken idea of denouncing of a pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure.</p>
+      </div>
+
+        <div class="col-sm-4">
+            <h3>Hover on this image</h3>
+            <div class="zoom">
+
+            <img src="color.jpg" alt="color">
+          </div>
+        </div>
+</div>
+
+<div class="row">
+<div class="col-sm-6">
+  <div class="panel panel-default">
+    <div class="panel-body" style="width:100%;height:300px;background-color:rgba(200,10,200,0.6)">
+  <h4 >Synopsis (extra content) </h3>
+  <p><pre>This is extra content beacuse it's meant to be..But I must explain to you how all this mistaken
+     idea of denouncing of a pleasure and praising pain was born and I will give you a complete account of
+      the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human
+       happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those
+        who do not know how to pursue pleasure rationally encounter consequences that are extremely
+         painful because it is pain, but occasionally him some great pleasure.
+          To take a trivial example, which of us ever undertakes laborious physical exercise,
+          except to obtain some advantage from it? But who has any right to find fault with a
+          man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids
+           a pain that produces no resultant pleasure.</pre></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="row">
+        <div class="col-sm-8">
+          <div class="panel panel-default text-left">
+            <div class="panel-body">
+              <p style="font-size:20px;text-color:orange">Leave a comment :</p>
+              <p contenteditable="true">Editable Content</p>
+              <button type="button" onclick="likeFunction()">
+                <span class="glyphicon glyphicon-thumbs-up"></span> Like
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <span class="container">
+      <span class="row">
+       <span class="col-lg-4 col-sm-12">
+      <ul style="list-style-type:disc">
+      <div><p style="font-size:50;font-family:Magneto">About us</p>
+      <li><a href="#" target="_blank">link</a></li>
+      <li><a href="#" target="_blank" class="Link 2">link</a></li>
+      <li><a href="#" target="_blank" class="Link 3">link</a></li>
+      <li><a href="#" target="_blank" class="Link 4">link</a></li>
+      </ul>
+      </span>
+       <span class="col-lg-4 col-sm-12">
+    <div>  <p style="font-size:50;font-family:Magneto">Contact us</p></div>
+      <br><br>
+
+      <a href="http://facebook.com/" target="_blank" class="fa fa-facebook"  style="height:30px"></a>&nbsp&nbsp
+      <a href="http://twitter.com/" target="_blank" class="fa fa-twitter" style="text-decoration:none"></a>&nbsp&nbsp
+      <a href="https://plus.google.com/" target="_blank" class="fa fa-google" style="text-decoration:none"></a>&nbsp&nbsp
+      <a href="https://in.linkedin.com/" target="_blank" class="fa fa-linkedin" style="text-decoration:none"></a>
+
+      </span>
+       <span class="col-lg-4 col-sm-12">
+      <ul style="list-style-type:none">
+      <div><p style="font-size:50;font-family:Magneto">Information</p>
+      <li>Information</li>
+      <li>Information2</li>
+      <li>Info3</li>
+      <li>Info4</li>
+      </ul>
+      </span>
+      </span>
+      </span>
+
+          </div>
+
+
+
+          <script>
+function likeFunction() {
+    alert("The button is useless ...It just shows a warning!");
+}
+</script>
+
+<footer class="container-fluid" style=" background-color: #555;color: white;padding: 15px;">
+  <p>Footer</p>
+</footer>
+
+ </body>
+ </html>
